@@ -10,14 +10,14 @@ export class HeroesComponent implements OnInit {
  
   //A Class instantiation 
   selectedHero: Hero;
+  heroes = HEROES;
   
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
   }
 
 
-  
-  heroes = HEROES;
+ 
 
   constructor() { }
 
