@@ -12,13 +12,13 @@ import { MessageService } from '../message.service';
 export class HeroesComponent implements OnInit {
  
   //A Class instantiation 
-  selectedHero: Hero;
+  //selectedHero: Hero;
   heroes: Hero[];
   
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
+  //onSelect(hero: Hero): void {
+    //this.selectedHero = hero;
     //this.messageService.add("Hero Clicked " + this.selectedHero.name);
-  }
+  //}
 
   getHeroes(): void {
     this.heroService.getHeroes()
